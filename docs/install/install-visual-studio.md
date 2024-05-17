@@ -96,8 +96,8 @@ You will need to decide which version and edition of Visual Studio to install. T
 
 - The latest release of Visual Studio 2019 that is hosted on Microsoft servers. To install this, click on the following button and then choose the edition you want. A small "bootstrapper" file will then be downloaded into your **Downloads** folder. 
 
- > [!div class="button"]
- > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
+  > [!div class="button"]
+  > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
 
 ::: moniker-end
 
@@ -105,8 +105,8 @@ You will need to decide which version and edition of Visual Studio to install. T
 
 - The latest release of Visual Studio 2022 that is hosted on Microsoft servers. To install this, click on the following button and then choose the edition you want. A small "bootstrapper" file will then be downloaded into your **Downloads** folder. 
 
- > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-install-visual-studio-page-cta)
+  > [!div class="button"]
+  > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
@@ -176,7 +176,7 @@ After the Visual Studio Installer is installed, you can use it to customize your
 
 1. After you choose the workload(s) you want, choose **Install**.
 
-    Next, status screens appear that show the progress of your Visual Studio installation.
+   Next, status screens appear that show the progress of your Visual Studio installation.
 
 ::: moniker-end
 
@@ -186,11 +186,11 @@ After the Visual Studio Installer is installed, you can use it to customize your
 
    ![Screenshot showing the Workloads tab of the Visual Studio Installer.](media/vs-2022/vs-installer-workloads.png "Install Visual Studio workloads")
 
-     Review the workload summaries to decide which workload supports the features you need. For example, choose the **ASP.NET and web development** workload to edit ASP.NET Web pages with Web Live Preview or build responsive web apps with Blazor, or choose from **Desktop & Mobile** workloads to develop cross-platform apps with C#, or C++ projects that target C++20.
+   Review the workload summaries to decide which workload supports the features you need. For example, choose the **ASP.NET and web development** workload to edit ASP.NET Web pages with Web Live Preview or build responsive web apps with Blazor, or choose from **Desktop & Mobile** workloads to develop cross-platform apps with C#, or C++ projects that target C++20.
 
 1. After you choose the workload(s) you want, select **Install**.
 
-    Next, status screens appear that show the progress of your Visual Studio installation.
+   Next, status screens appear that show the progress of your Visual Studio installation.
 
 ::: moniker-end
 
@@ -203,13 +203,13 @@ If you don't want to use the Workloads feature to customize your Visual Studio i
 
 ::: moniker range="vs-2019"
 
-  ![Screenshot showing the Individual components tab of the Visual Studio Installer.](media/vs-2019/vs-installer-individual-components.png "Install Visual Studio individual components")
+![Screenshot showing the Individual components tab of the Visual Studio Installer.](media/vs-2019/vs-installer-individual-components.png "Install Visual Studio individual components")
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-  ![Screenshot showing the Individual components tab of the Visual Studio Installer.](media/vs-2022/vs-installer-individual-components.png "Install Visual Studio individual components")
+![Screenshot showing the Individual components tab of the Visual Studio Installer.](media/vs-2022/vs-installer-individual-components.png "Install Visual Studio individual components")
 
 ::: moniker-end
 
@@ -219,13 +219,13 @@ By default, the installer program tries to match the language of the operating s
 
 ::: moniker range="vs-2019"
 
-  ![Screenshot showing the Language packs tab of the Visual Studio Installer.](media/vs-2019/vs-installer-language-packs.png "Install Visual Studio language packs")
+![Screenshot showing the Language packs tab of the Visual Studio Installer.](media/vs-2019/vs-installer-language-packs.png "Install Visual Studio language packs")
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-  ![Screenshot showing the Language packs tab of the Visual Studio Installer.](media/vs-2022/vs-installer-language-packs.png "Install Visual Studio language packs")
+![Screenshot showing the Language packs tab of the Visual Studio Installer.](media/vs-2022/vs-installer-language-packs.png "Install Visual Studio language packs")
 
 ::: moniker-end
 
@@ -236,9 +236,9 @@ By default, the installer program tries to match the language of the operating s
 Another way that you can change the default language is by running the installer from the command line. 
 For example, you can force the installer to run in English by using the following command: 
 
-  ```shell
-  vs_installer.exe --locale en-US
-  ```
+```shell
+vs_installer.exe --locale en-US
+```
 
 The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
 
@@ -249,9 +249,9 @@ The installer will remember this setting when it is run the next time. The insta
 Another way that you can change the default language is by running the installer from the command line. 
 For example, you can force the installer to run in English by using the following command: 
 
-  ```shell
-  vs_installer.exe --locale en-US
-  ```
+```shell
+vs_installer.exe --locale en-US
+```
 
 The installer will remember this setting when it's run the next time. The installer supports these [language locales](/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022&preserve-view=true#list-of-language-locales): zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
 
@@ -263,7 +263,7 @@ The installer will remember this setting when it's run the next time. The instal
 
 You can reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
 
-  ![Screenshot showing the Installation locations tab of the Visual Studio Installer.](media/vs-2019/vs-installer-installation-locations.png "Select the installation location")
+![Screenshot showing the Installation locations tab of the Visual Studio Installer.](media/vs-2019/vs-installer-installation-locations.png "Select the installation location")
 
 ::: moniker-end
 
@@ -271,7 +271,7 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 
 You can reduce the installation footprint of Visual Studio on your system drive. For more information, see [Select installation locations](change-installation-locations.md).
 
-  ![Screenshot showing the Installation locations tab of the Visual Studio Installer.](media/vs-2022/vs-installer-installation-locations.png "Select the installation location")
+![Screenshot showing the Installation locations tab of the Visual Studio Installer.](media/vs-2022/vs-installer-installation-locations.png "Select the installation location")
 
 ::: moniker-end
 
